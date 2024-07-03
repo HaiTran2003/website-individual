@@ -1,0 +1,158 @@
+.column {
+  display: grid;
+  grid-template-columns: 10fr 5fr 3fr;
+  padding: 10px;
+  margin-top: 0;
+  background-color: #0000FFFF;
+}
+
+.column-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  margin-top: 0;
+}
+
+.column-2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  margin-top: 0;
+}
+
+.column-3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  margin-top: 0;
+}
+
+.column-4 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  margin-top: 0;
+}
+
+.column-5 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  margin-top: 0;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  background-color: #f4f4f4;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+section h4 {
+  margin-bottom: 0;
+}
+
+.member-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: -10px;
+}
+
+.member-item .item-icon {
+  font-size: 2.5rem;
+  margin-block-start: 15px;
+}
+
+.member-item .item-title { margin-block-end: 5px; }
+
+#project-goals,
+#project-team {
+  height: 360px;
+}
+
+#project-scope,
+#project-primary {
+  margin-top: -340px; /* Điều chỉnh giá trị tùy theo khoảng cách mong muốn */
+}
+
+.goals-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: -10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.goals-item .item-icon {
+  font-size: 2.5rem;
+  margin-block-start: 15px;
+} 
+
+.goals-item .item-title { margin-block-end: 5px; }
+
+.scope-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100px;
+}
+
+.primary-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: -10px;
+}
+
+.primary-item .item-icon {
+  font-size: 1.5rem;
+  margin-block-start: 15px;
+}
+
+.primary-item .item-title { margin-block-end: 5px; }
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: -10px;
+}
+
+.timeline-item .item-icon {
+  font-size: 2.5rem;
+  margin-block-start: 15px;
+} 
+
+.timeline-item .item-title { margin-block-end: 5px; }
+
+.circle {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  background: #fff;
+  border: 3px solid #000;
+  color: #000;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.dotted {
+  color: #88D1D7;
+}
+
+.timeline-item .dotted {
+  margin: 0;
+}
+
+.timeline-item .item-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}

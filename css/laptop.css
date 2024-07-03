@@ -1,0 +1,416 @@
+/* general css */
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#about {
+    margin-bottom: 16px;
+}
+  
+#job-info {
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}  
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.now {
+    background-color: #199CDB;
+    padding: 4px 8px;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+nav {
+    position: relative;
+}
+
+/* exp-bar */
+
+.exp-bar {
+    width: 50px;
+    height: 2px;
+    background-color: grey;
+    display: inline-block;
+}
+
+/* css timeline */
+
+.timeline .section-content {
+    position: relative;
+    padding-left: 15px;
+}
+
+.timeline .title::before {
+    position: absolute;
+    content: '\00b0';
+    font-size: 30px;
+    color: #FFFFFF;
+    top: 22.5px;
+    left: 7px;
+    transform: translate(-50%, -50%);
+}
+
+.timeline .title::after {
+    position: absolute;
+    content: '\2022';
+    font-size: 18px;
+    color: #1D72FF;
+    top: 16px;
+    left: 7px;
+    transform: translate(-50%, -50%);
+}
+
+.fill1 {
+    background-color: #1D72FF;
+}
+
+.fill2 {
+    background-color: rgba(60, 182, 222, 0.938);
+}
+
+/* css banner */
+
+.img-banner {
+    position: relative;
+    background-image: url(./images/banner.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    filter: brightness(50%);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.banner-text {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    text-transform: uppercase;
+}
+
+.banner-text span {
+    color: #bdc3c7;
+}
+
+/* Navigation */
+#nav-bar {
+    text-align: center;
+}
+
+#nav-bar a:link,
+a:visited {
+    text-decoration: none;
+    color: #1d3557;
+    text-transform: uppercase;
+    border-left: 2px solid #dfe6e9;
+    padding: 60px 20px 32px;
+}
+
+#title1 {
+    border-right: 2px solid #dfe6e9;
+}
+
+#nav-bar a:hover,
+a:active {
+    font-weight: bold;
+    cursor: grab;
+}
+
+.nav-text {
+    display: inline-block;
+    margin: 10px 70px 0;
+}
+
+.nav-text h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.nav-text span {
+    color: #bdc3c7;
+}
+
+#icon {
+    color: rgba(60, 182, 222, 0.938);
+}
+
+/* Thông tin cá nhân */
+
+#target {
+    background-color: #f7f7f7;
+    padding: 60px;
+    padding-left: 40%;
+    padding-right: 5%;
+}
+
+#personal-info {
+    background-color: #f0f0f0;
+    padding: 60px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.section-content {
+    margin-bottom: 20px;
+}
+
+/* Thông tin nghề nghiệp */
+
+.job-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+}
+
+.grid-container {
+    height: 100%;
+}
+  
+#experience,
+  #Hobbies {
+    grid-column: 1;
+}
+  
+#Education,
+#Language {
+    grid-column: 2;
+}
+  
+#Activiti,
+#Skill {
+    grid-column: 3;
+}
+
+.section-title {
+    display: flex;
+
+}
+
+.section-title i {
+    font-size: 45px;
+}
+
+.section-title h1 {
+    flex-grow: 1;
+}
+
+.icon-hobbies {
+    display: flex;
+    align-items: center;
+}
+  
+.icon-hobbies h4 {
+    margin: 0;
+    text-align: center;
+}
+
+#experience {
+    background-color: #FAEBD7;
+}
+
+#Education {
+    background-color: #00FFFF;
+}
+
+#Activiti {
+    background-color: #FAEBD7;
+}
+
+#Hobbies {
+    background-color: #FAEBD7;
+}
+
+#Language {
+    background-color: #FAEBD7;
+}
+
+#Skill {
+    background-color: #FAEBD7;
+}
+
+.icon-hobbies i {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(60, 182, 222, 0.938);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.icon-hobbies .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+.item {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+/* CSS certificate */
+
+.section-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+.img-cer {
+    width: 240px;
+    margin-right: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.cer-contain {
+    display: flex;
+    gap: 20px;
+}
+
+.card1 {
+    padding-left: 20px;
+    border-left: 2px solid #d6c08d;
+}
+
+.card2 {
+    grid-column: 1/-1;
+    padding-top: 20px;
+    border-top: 2px solid #d6c08d;
+}
+
+/* CSS project */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.project-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    padding: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+}
+
+.project-boder {
+    padding: 5px;
+    border-top: 1px solid #bdc3c7;
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+td {
+    padding: 10px;
+    padding-left: 10px;
+}
+
+tr td:first-chid {
+    width: 100px;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+tr {
+    border: 1px solid #bdc3c7;
+}
+
+.Read {
+    background-color: #199CDB;
+    padding: 4px 8px !important;
+    color: white !important;
+    margin-left: 3rem!important;
+    font-size: 1rem;
+    line-height: 2.2;
+    text-align: center;
+    border-radius: 12px;
+}
+
+/* CSS footer */
+
+.icon {
+    background-color: #1D72FF;
+    color: white;
+}
+
+#footer {
+    line-height: 1.5;
+    text-align: center;
+}
+
+#footer a:link,
+a:visited {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #1d3557;
+}
+
+.avtar-default {
+    height: 260px;
+    width: 240px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #ffff;
+}
+
+.avatar-banner {
+    position: absolute;
+    display: inline-block;
+    right: 50%;
+    transform: translate(50%, -50%);
+}

@@ -1,0 +1,239 @@
+@media (max-width: 500px) {
+.img-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+}
+
+/* responsive navbar */
+.nav-text {
+  display: none !important;
+}
+.avatar-banner {
+  display: none !important;
+}
+#nav-bar {
+  height: auto !important;
+  display: block !important;
+}
+#nav-bar a:link,
+a:visited {
+  display: block !important;
+  padding: 10px;
+  border-left: none;
+  text-align: left !important;
+}
+
+/* responsive about */
+#about .row {
+  flex-direction: column;
+}
+
+#about .col-md-6 {
+  width: 100%;
+  padding: 0;
+}
+
+/* responsive job */
+#job-info {
+  width: 450px;
+  padding: 0;
+}
+
+.job-grid {
+  display: grid !important;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 50px;
+  row-gap: 20px;
+}
+
+/* responsive certificate */
+.section-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 50px;
+  row-gap: 30px;
+}
+
+.cer-contain {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.card1 {
+  border-top: 2px solid #d6c08d;
+}
+
+/* responsive project */
+.container {
+  width: 450px !important;
+  padding: 0 !important;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 40px;
+}
+
+/* responsive footer */
+#footer a:link {
+  margin-right: 10px;
+}
+
+/* Responsive general project-character */
+.column {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 20px;
+}
+
+.column-1 { order: 1; }
+.column-4 { order: 2; }
+.column-2 { order: 3; }
+.column-5 { order: 4; }
+.column-3 { order: 5; }
+
+#project-scope,
+#project-primary {
+  margin-top: 0;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+#project-goals {
+  height: 490px;
+}
+
+#project-scope {
+  height: 350px;
+}
+
+#project-team {
+  height: 430px;
+}
+
+.scope-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 3.5rem;
+  background-color: #f4f4f4;
+}
+
+.item-icon {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.item-icon i {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Responsive goals */
+.goals-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.goals-item .item-icon {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+}
+
+.item-title {
+  margin-top: 20px;
+}
+
+.goals-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* Responsive team */
+.member-item {
+  position: relative;
+}
+
+.member-item .item-icon {
+  position: absolute;
+  top: -40px;
+  left: 25%;
+  transform: translateX(-50%);
+}
+
+.member-item .item-title {
+  margin-top: 10px;
+}
+
+.member-item .item-text {
+  margin-bottom: 50px;
+}
+
+.member-item .icon-user {
+  font-size: 24px;
+}
+
+/* Responsive primary */
+.primary-item {
+  position: relative;
+}
+
+.primary-item .item-icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.primary-item .item-text {
+  margin-top: 50px;
+}
+
+.primary-item .fa-circle-question {
+  font-size: 24px;
+}
+
+/* Responsive timeline */
+.timeline-item {
+  position: relative;
+}
+
+.item-icon {
+  position: absolute;
+  top: 0;
+}
+
+.timeline-item .item-title {
+  margin-top: 80px;
+}
+
+.timeline-item .circle {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+  background: #9E88FF;
+  border: 3px solid #000;
+  color: #FFFFFF;
+  text-align: center;
+  font: 23px Arial, sans-serif;
+}
+
+}
